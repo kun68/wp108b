@@ -28,7 +28,7 @@
 
 [http://example.com](http://example.com)
 
-![我的照片](ccc.jpg)
+![我的照片](kunpic.jpg)
 
 
 
