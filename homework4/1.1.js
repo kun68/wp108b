@@ -4,6 +4,6 @@ for(var i=0;i<a.length;i++)
 {
     sum+=a[i];
 }
-var mean=sum/a.length;
+var mean=sum/a.length; //求平均值 //
 
 console.log("mean = %d",mean);
