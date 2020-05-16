@@ -1,0 +1,149 @@
+<html>
+<!DOCTYPE html>
+<head>
+   <style>
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 標楷體 , Arial;
+  padding: 10px;
+  background: #d4a79f;
+  text-align: center;
+}
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  font-family: 華康仿宋體W2 , Bahnschrift;  /*調整字體*/
+  color: rgba(0, 0, 0, 0.89);
+  font-size: 25px;
+  background-color: rgb(212, 111, 97);
+}
+  
+
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(136, 33, 33);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px ;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgba(243, 51, 51, 0.733);
+}
+
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: rgb(131, 127, 127);
+  margin-top: 2%; 
+  font-family: 華康仿宋體W2 , Bahnschrift;
+  color: white;
+}
+
+
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 31%;
+  padding:2%
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}   
+   </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>拍攝照片</h1>
+      </div>
+
+<div class="topnav">
+    <a href="https://kun68.github.io/wp108b/kunWeb/2.html" style="float:right">返回</a>
+</div>
+
+<h1>
+    以下為我所拍攝的照片
+</h1>
+<div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="IMG_6655.jpg"  width="600" height="400">
+    </a>
+    <div class="desc">我養的貓-蕎</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="IMG_7316.jpg"  width="600" height="400">
+    </a>
+    <div class="desc">東北風景照</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="IMG_5282.jpg"  width="600" height="400">
+    </a>
+    <div class="desc">永康火車站</div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="IMG_5814.jpg"  width="600" height="400">
+    </a>
+    <div class="desc">八卦山</div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="IMG_8560.jpg"  width="600" height="400">
+    </a>
+    <div class="desc">雲林風景照</div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="IMG_5333.jpg"  width="600" height="400">
+    </a>
+    <div class="desc">台南風景照</div>
+  </div>
+  
+</body>
+</html>

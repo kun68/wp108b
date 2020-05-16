@@ -2,6 +2,16 @@
 <html>
 </html>
 <head>
+  <script>
+    function showTime() {
+        var today=new Date();
+        var h=today.getHours();
+        var m=today.getMinutes();
+        var s=today.getSeconds();
+        document.getElementById('time').innerHTML = h+":"+m+":"+s; //取得時間的函數
+        setTimeout(showTime,1000);
+    }
+    </script>
 <style>
 
 .header {
@@ -13,7 +23,7 @@
   background-position-y: 30%;  /*調整背景位置*/
   font-family: 華康仿宋體W2 , Bahnschrift;  /*調整字體*/
   color: rgb(34, 37, 87);
-  font-size: 25px;}
+  font-size: 150%;}
 
 .header h1{
   font-size: 200%;
@@ -27,7 +37,8 @@
   
 .topnav {
   overflow: hidden;
-  margin: 25px ;
+  margin: 5% ;
+  padding: 5%;
   background-color: rgba(19, 34, 66, 0.705);
 }
 
@@ -36,8 +47,8 @@
   color: #f2f2f2;
   display: block;
   text-align: center;
-  padding: 15px 16px;
-  border: 10px ;
+  padding: 3% ;
+  border: 2% ;
   text-decoration: none;
 }
 
@@ -60,10 +71,14 @@
   <div class="header">
     <h1>坤毅的介紹網站</h1>
     <p>Kun's website.</p>
-  </div>
+    <body onload="showTime()">
+      <div id="time"> 
+        </div>
 
   <div class="topnav">
-    <a href="https://kun68.github.io/wp108b/kunWeb/1.html">介紹網站</a>
+    <a href="https://kun68.github.io/wp108b/kunWeb/1.html">自我介紹</a>
+    <a href="https://kun68.github.io/wp108b/kunWeb/3.html">拍攝照片</a>
+    <a href="https://kun68.github.io/wp108b/kunWeb/1.html">特殊經驗</a>
     <a href="https://www.facebook.com/profile.php?id=100000869534295">臉書</a>
     <a href="https://www.instagram.com/kun_68/">Instagram</a>
   </div>
