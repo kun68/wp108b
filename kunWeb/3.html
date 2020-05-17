@@ -75,79 +75,82 @@ div.desc {
   text-align: center;
 }
 
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
+@media only screen and (max-width: 500px) {
+  .responsive {
     width: 100%;
-    padding: 0;
   }
 }
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}   
-
 
 </style>
 </head>
 
 <body>
 
-    <div class="header">
-        <h1>拍攝照片</h1>
-      </div>
+  <div class="header">
+    <h1>拍攝照片</h1>
+  </div>
 
 <div class="topnav">
-    <a href="https://kun68.github.io/wp108b/kunWeb/2.html">返回</a>
+<a href="https://kun68.github.io/wp108b/kunWeb/2.html">返回</a>
 </div>
 
 <h1>
     以下為我所拍攝的照片
 </h1>
-<div class="gallery">
+
+<div class="responsive">
+  <div class="gallery">
     <a target="_blank" href="img_5terre.jpg">
       <img src="IMG_6655.jpg"  width="600" height="400">
     </a>
     <div class="desc">我養的貓-蕎</div>
   </div>
-  
+</div>
+
+<div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_forest.jpg">
       <img src="IMG_7316.JPG"  width="600" height="400">
     </a>
     <div class="desc">東北風景照</div>
   </div>
-  
+</div>
+
+<div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_lights.jpg">
       <img src="IMG_5282.jpg"  width="600" height="400">
     </a>
     <div class="desc">永康火車站</div>
   </div>
+</div>
+
+<div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_lights.jpg">
       <img src="IMG_5814.jpg"  width="600" height="400">
     </a>
     <div class="desc">八卦山</div>
   </div>
+</div>
+
+<div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_lights.jpg">
       <img src="IMG_8560.JPG"  width="600" height="400">
     </a>
-    <div class="desc">雲林風景照</div>
+    <div class="desc">雲林風景照</di>
   </div>
+</div>
+
+<div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_lights.jpg">
       <img src="IMG_5333.jpg"  width="600" height="400">
     </a>
     <div class="desc">台南風景照</div>
   </div>
-  
+</div>  
 
 </body>
 
