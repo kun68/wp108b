@@ -64,7 +64,7 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
-@media only screen and (max-width: 1920px) {
+@media only screen and (min-width: 1024px) {
   .responsive {
     width: 32%;
     margin: 6px 0;
@@ -73,14 +73,15 @@ div.desc {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1023px) and (min-width: 650px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
+    float: left;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and(max-width: 649px) {
   .responsive {
     width: 100%;
   }
