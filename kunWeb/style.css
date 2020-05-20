@@ -20,24 +20,24 @@ body {
   font-size: 25px;}
 
 
-.topnav {
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.747);
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 15px ;
-  text-decoration: none;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
+  .topnav {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.747);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px ;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   

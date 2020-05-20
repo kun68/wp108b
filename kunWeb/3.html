@@ -44,21 +44,11 @@ body {
   color: rgba(243, 51, 51, 0.733);
 }
 
-/* Footer */
-.footer {
-  padding: 10px;
-  text-align: center;
-  background: rgb(131, 127, 127);
-  margin-top: 2%; 
-  font-family: 華康仿宋體W2 , Bahnschrift;
-  color: white;
-}
-
 div.gallery {
   margin: 5px;
+  width: auto;
+  padding:2%;
   float: left;
-  width: 31%;
-  padding:2%
 }
 
 div.gallery:hover {
@@ -74,8 +64,22 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+@media only screen and (max-width: 1920px) {
+  .responsive {
+    width: 32%;
+    margin: 6px 0;
+    padding:2%;
+    float: left;
+  }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
   .responsive {
     width: 100%;
   }
@@ -139,7 +143,7 @@ div.desc {
     <a target="_blank" href="img_lights.jpg">
       <img src="IMG_8560.JPG"  width="600" height="400">
     </a>
-    <div class="desc">雲林風景照</di>
+    <div class="desc">雲林風景照</div>
   </div>
 </div>
 
