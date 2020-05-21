@@ -26,7 +26,6 @@ body {
   }
   
   .topnav a {
-    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 15px ;
@@ -38,53 +37,32 @@ body {
     color: black;
   }
   
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 25%;
-}
 
-/* Right column */
-.rightcolumn {
+.column {
   float: left;
-  width: 75%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
   width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 10px;
+  background-color:lightgray;
   text-align: center;
-  background: rgb(131, 127, 127);
-  margin-top: 20px; 
-  font-family: 華康仿宋體W2 , Bahnschrift;
-  color: white;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+.fakeimg {
+  background-color: gray;
+  width: 100%;
+  padding:20px;
+  margin:5px;
+  text-align: left;
+}
+
+.card {
+  background-color: #f1f1f1(114, 114, 114);
+  padding: 20px;
+  margin: 5px;
+  margin-top: 20px;
+  border: 0.5px solid;
+}
+
+
+
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
@@ -92,7 +70,7 @@ body {
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 400px) {
   .topnav a {
     float: none;
