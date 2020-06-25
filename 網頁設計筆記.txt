@@ -1,0 +1,101 @@
+git add -A
+git commit -m"modify 內容"
+git push origin master 
+--------------------------------------
+https://kun68.github.io/wp108b/
+
+< a herf="網址">字</a>
+target_blank 開新視窗
+target="top" 直接變到網站
+title 顯示字
+
+<a href="網址" target="_blank">字</a>
+<a href="網址" target="_top">字</a>
+<a href="網址"><圖檔資料></a>
+<a href="網址">字</a> 
+
+<a href=#c4>字</a>
+<h2 id="c4">字</p>
+
+<img src="圖檔">
+
+<table style="width:100%">
+ <caption>字</caption> 不在表格內 無邊框
+  <tr>
+    <th>字</th>
+    <th>字</th> 
+    <th>字</th>
+  </tr>
+<tr>
+    <th>Name</th>
+    <th colspan="2">Telephone</th>
+  </tr>  垮欄 行 (rowspan為列)
+
+
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse; 表格的線變細
+}
+th, td {
+  padding: 15px;
+}  旁邊留白
+th {
+  text-align: left;
+} 字靠左
+</style>
+
+<style>
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}  基數排變顏色
+table#t01 tr:nth-child(odd) {
+ background-color: #fff;
+} 偶數排便顏色
+table#t01 th {
+  background-color: black;
+  color: white;
+} 第一排變顏色
+</style>
+
+<ul style="list-style-type:disc;">  改變標號圖案
+  <li>字</li>
+</ul>
+
+<ol type="1">
+  <li>字</li>
+</ol>  編碼  
+
+<ol start="50"> 編號從50開始
+
+<span style="border: 1px solid black">字</span></p>
+
+<div style="background-color:black;color:white;padding:20px;">
+改變背景顏色
+
+<span style="color:red"> 字中間的改顏色大小
+
+lframe 在網站中加入其他網頁
+
+<head>
+<title>字</title> 標題有字
+
+<header>
+<section>
+  <nav> 
+  <article>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+讓畫面充滿裝置設備
